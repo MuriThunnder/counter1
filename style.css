@@ -1,0 +1,62 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+
+body{
+    background: rgb(255, 152, 180);
+    background: linear-gradient(
+        9bdcg,
+        rgba(255, 152, 108, 1) 0%,
+        rgb(156, 87, 66) 100%
+    );
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card-body{
+    background: white;
+    padding: 23px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-body h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+.card-btn button{
+    border-radius: 5px;
+    color: black;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#decrement:hover{
+    background: orange;
+    color: white;
+}
+button#reset{
+    background: red;
+}
+button#reset:hover {
+    background: red;
+    color: white;
+}
+cutton#increment:hover{
+    background: blue;
+    color: white;
+}
+button#increment {
+    background: lemonchiffon;
+}
